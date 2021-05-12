@@ -72,7 +72,7 @@ var moverocks = setInterval(() => {
 
   if (rocks != undefined) {
     for (var i = 0; i < rocks.length; i++) {
-      var rock = rocks[i]; //getting each rock
+      var rock = rocks[i];
       var rocktop = parseInt(
         window.getComputedStyle(rock).getPropertyValue("top")
       );
